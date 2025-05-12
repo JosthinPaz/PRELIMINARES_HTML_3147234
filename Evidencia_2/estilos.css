@@ -1,0 +1,25 @@
+/*RETO_1*/
+section h2 , aside h3{
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+}
+/*RETO_2*/
+nav > a , footer > a {
+    text-decoration: none;
+    color: firebrick;
+}
+/*RETO_3*/
+footer a{
+    font-size :  20px; 
+    font-weight: bold;
+    color: rgb(0, 47, 255);
+}
+/*RETO_4*/
+h2 + p {
+    color: gold;
+}
+/*RETO_5*/
+aside > p {
+    color: indigo;
+}

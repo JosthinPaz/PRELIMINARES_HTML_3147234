@@ -1,0 +1,70 @@
+/*Selectores descendentes*/
+
+
+.mainTitle{
+    font-size: 25px;
+    font-weight: bold;
+}
+#globalNav .mainTitle {
+    color: rgb(14, 107, 247);
+}
+
+.contenedor .mainTitle{
+    color: rgb(84, 128, 224);
+}
+footer h2{
+    color: rgb(45, 83, 6);
+}
+
+/*Selectores hijos*/
+footer > p {
+    background-color: rgb(60, 157, 236);
+}
+/*Cambiar el color del developer*/
+footer > p > span {
+    color: rgb(25, 0, 255);
+}
+
+/*Señectores de subsiguientes*/
+
+footer h2 ~ p {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+/*hermanos adyacentes*/
+.developer{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+
+}
+
+footer .developer + p {
+    background-color: rgb(20, 163, 220);
+}
+
+form button {
+    background-color: rgb(32, 135, 231);
+    color: rgb(41, 40, 40);
+}
+
+/*Selectores de atributo simple*/
+
+input[type]{
+    border-bottom: rgb(128, 185, 142) 2px dotted;
+    border-top: 4px solid rgb(45, 83, 6);
+}
+
+/*Selectores de atributo con valor*/
+.contenerdor input[type="password"]{
+    border-left: crimson 2px dashed;
+    border-right: crimson 2px dashed;
+}
+/*Selectores  de atributo con valor y contenido*/
+/*enlaces con dominios org*/
+a[href$="org"]{
+    color: brown;
+}
+
+a[href^= "aprendices"]{
+    color: rgb(48, 68, 12);
+}
