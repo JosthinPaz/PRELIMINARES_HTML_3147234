@@ -1,0 +1,47 @@
+.contenedor1{
+    /*display block dispone el elemento en bloque:
+    -utilizara por defecto todo el ancho disponible de la pantalla
+    -se le poner propiedades como: 
+        *ancho,alto,padding,margin 
+    -el siguiente elemento se mostrara en la siguinete linea
+    -por defecto los usan: h,p,div, section;*/
+    display: block;
+    background-color: rgb(12, 123, 156);
+    height: 150px;
+
+}
+.contenedor2{
+    display: block;
+    background-color: rgb(106, 173, 171);
+    width: 500px;
+    height: 150px;
+    
+}
+.contenedor3{
+    /*Aplicamos display inline para que los elementos se muestren en la misma linea
+    -no se le puede poner propiedade ancho,alto y etc
+    -el siguiente elemento se mostrara en la misma linea,con un pequeño espacio
+    -por defecto lo usan:span,a,img*/
+    display: inline;
+    background-color: darkseagreen;
+}
+.contenedor4{
+    display: inline;
+    background-color: rgb(5, 110, 93);
+}
+.contenedor5{
+    /*Los elementos siguientes se muestran en la misma linea(inline)
+    -pero se le pueden aplicar propiedades de ancho,alto,padding,margin(block)*/
+    display: inline-block;
+    background-color: rgba(3, 71, 60, 0.712);
+    width: 400px;
+    height: 300px;
+}
+.contenedor6{
+    /*Los elementos siguientes se muestran en la misma linea(inline)
+    -pero se le pueden aplicar propiedades de ancho,alto,padding,margin(block)*/
+    display: inline-block;
+    background-color: rgb(12, 145, 179);
+    width: 400px;
+    height: 300px;
+}
